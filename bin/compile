@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# DOC: https://devcenter.heroku.com/articles/buildpack-api
+# bin/compile BUILD_DIR CACHE_DIR ENV_DIR
 mkdir -p "$1" "$2" "$3"
 BUILD_PATH=$(cd "$1" && pwd)
 CACHE_PATH=$(cd "$2" && pwd)
