@@ -1,3 +1,11 @@
+fix do problema dos scripts 
+
+
+{"level":"error","error":"NSE: failed to initialize the script engine:\ncould not locate nse_main.lua\nstack traceback:\n\t[C]: in ?\n","warnings":["Unable to find nmap-services!  Resorting to /etc/services","NSE: failed to initialize the script engine:","could not locate nse_main.lua","stack traceback:","\t[C]: in ?","","QUITTING!"],"time":"2022-03-23T00:58:40Z","message":"unable to run nmap scan: NSE: failed to initialize the script engine:\ncould not locate nse_main.lua\nstack traceback:\n\t[C]: in ?\n"}
+
+
+
+
 # buildpack-nmap
 <a href="https://heroku.com/deploy?template=https://github.com/hahwul/buildpack-nmap">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
